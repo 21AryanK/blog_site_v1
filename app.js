@@ -7,7 +7,7 @@ const _ = require("lodash");
 const mongoose = require('mongoose');
 
 // MongoDB connection URL
-const mongoURL= 'mongodb+srv://admin-aryan:P36l69Y9Njq0ekAc@cluster0.ca3e4px.mongodb.net/todoListDB';
+const mongoURL= 'mongodb+srv://<username>:<password>@cluster0.ca3e4px.mongodb.net/todoListDB';
 
 // Connect to MongoDB
 mongoose.connect(mongoURL, { useNewUrlParser: true, useUnifiedTopology: true })
